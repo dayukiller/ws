@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=320,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="Copyright" content="Copyright (c) 2006-2016 TENCENT" />
+    <meta name="author" content="Tencent-TGideas" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index,follow">
+    <!-- 搜索引擎抓取 -->
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- 设置苹果工具栏颜色 -->
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+    <meta name="full-screen" content="yes">
+    <!-- UC强制全屏 -->
+    <meta name="browsermode" content="application">
+    <!-- UC应用模式 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <!-- 忽略页面中的数字识别\email识别\地址识别 -->
+    <title>维墅</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+
+  <body>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/index.js">
+    </script>
+    <div class="container">
+      <div class="Progress-container section" id="section0">
+        <div class="loadding">
+          <div class='base'>
+            <div class='cube'></div>
+            <div class='cube'></div>
+            <div class='cube'></div>
+            <div class='cube'></div>
+            <div class='cube'></div>
+            <div class='cube'></div>
+            <div class='cube'></div>
+            <div class='cube'></div>
+            <div class='cube'></div>
+          </div>
+        </div>
+        <div class="progress-text">
+          <span class="text1 active">想有个院子</span>
+        </div>
+        <div class="progress-out" id="div2">
+          <!--<div class="percent-show"><span>0</span>%</div>-->
+          <div class="progress-in"></div>
+        </div>
+
+      </div>
+      <div class="Progress-container1 section" id="section1">
+        <div class="animate seven" id="video-two">
+          <span>想</span>
+          <span>此</span>
+          <span>刻</span>
+          <span>梦</span>
+          <span>想</span>
+          <span>成</span>
+          <span>真</span>
+        </div>
+        <div class="fingerprint-trigger"><img src="img/Progress.png" /></div>
+      </div>
+      <div class="Progress-container2 section" id="section2">
+        <div class="myVideo video-one" data-steps="2" id="video-one">
+          <video id="video" preload="auto" webkit-playsinline="true" playsinline="true" x-webkit-airplay="allow" x5-video-player-type="h5" x5-video-player-fullscreen="true" x5-video-orientation="landscape" src="http://qzonestyle.gtimg.cn/qz-act/sola/video_fix.mp4" style="object-fit:fill">
+          </video>
+        </div>
+      </div>
+      <div id="mask" class="mask">
+        <p>此刻转发</p>
+        <p>让更多人梦想成真</p>
+      </div>
+      <div class="model"> 横屏状态下效果更佳哦</div>
+      <div id="fingerprint" class="fingerprint-trigger" onclick="triggerClick(this)"><img src="img/Progress.png" /></div>
+    </div>
+  </body>
+
+</html>
